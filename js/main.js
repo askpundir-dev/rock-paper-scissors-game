@@ -91,7 +91,7 @@ function playGame(userPicked) {
   localStorage.setItem("Score", JSON.stringify(Score));
   updateScoreElement();
 }
-//new function
+//new function changing emojis
 const choiceContainer = container.querySelector(".js-choices");
 function showChoiceResult(userPicked, computerPicked) {
   const emojiMap = {
