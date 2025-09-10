@@ -95,9 +95,9 @@ function playGame(userPicked) {
 const choiceContainer = container.querySelector(".js-choices");
 function showChoiceResult(userPicked, computerPicked) {
   const emojiMap = {
-    rock: "✊",
-    paper: "🤚",
-    scissor: "✌️",
+    rock: "🪨",
+    paper: "📄",
+    scissor: "✂️",
   };
   const compChoice = emojiMap[computerPicked] || "❓";
   const userChoice = emojiMap[userPicked] || "❓";
